@@ -1,0 +1,9 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+CREATE FUNCTION [dbo].[JobLevel] (@Max_lvl INT)
+RETURNS TABLE
+AS
+  RETURN (SELECT max_lvl
+     
+    FROM jobs);
+GO

@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [Sel_Dev] AUTHORIZATION [Jordan_Sanders]
+GO
